@@ -20,22 +20,21 @@ operation = (input("Enter the operation to perform:"))
 match operation:
         case "+":
             sum = num1 + num2
-            print("The sum of two numbers is: " + str(sum))
+            print("The sum of two numbers: " + str(num1) + " + " + str(num2) + " = " + str(sum))
         case "-":
             result = num1 - num2
-            print("The operation of subtracting 2 numbers is: " + str(result))
+            print("The operation of subtracting 2 numbers: " + str(num1) + " - " + str(num2) + " = " + str(result))
         case "*":
             result = num1 * num2
-            print("The result of multiplying the two numbers is: " + str(result))
+            print("The result of multiplying the two numbers: " + str(num1) + " * " + str(num2) + " = " + str(result))
         case "/":
             result = num1/num2
-            print("The result of dividing two numbers is: " + str(result))
+            print("The result of dividing two numbers: " + str(num1) + " / " + str(num2) + " = " + str(result))
         case "%":
             result = num1%num2
-            print("The modulous of the two numbers is: " + str(result))
+            print("The modulous of the two numbers: " + str(num1)  + " % " + str(num2) + " = " + str(result))
         case _:
             print("Enter a valid operation to perform")
-
 
 
 
