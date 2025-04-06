@@ -1,7 +1,7 @@
 #Creating ,reading writing and appending files in python.
 first_file = 'file1.txt'
 modified_file = 'file2.txt'
-#puting the codes that might generate error in a try block
+#puting the codes that might generate error in a try bloc.
 try:
     #opening file1 and reading its content.
     file = open(first_file,'r')
